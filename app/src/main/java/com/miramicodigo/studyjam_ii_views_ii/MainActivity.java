@@ -53,6 +53,14 @@ public class MainActivity extends AppCompatActivity {
         swr=1;
         sws=0; swm=0; swd=0;
     }
+    public void cero (View v)
+    {
+        digito = (TextView) findViewById(R.id.tvCero);
+        float dig = Float.parseFloat(digito.getText().toString()), res = Float.parseFloat(resultado.getText().toString()) ;
+        res = res*10 + dig;
+        resultadoaux = res;
+        resultado.setText(resultadoaux+"");
+    }
     public void uno (View v)
     {
         digito = (TextView) findViewById(R.id.tvUno);
@@ -120,14 +128,6 @@ public class MainActivity extends AppCompatActivity {
     public void nueve (View v)
     {
         digito = (TextView) findViewById(R.id.tvNueve);
-        float dig = Float.parseFloat(digito.getText().toString()), res = Float.parseFloat(resultado.getText().toString()) ;
-        res = res*10 + dig;
-        resultadoaux = res;
-        resultado.setText(resultadoaux+"");
-    }
-    public void cero (View v)
-    {
-        digito = (TextView) findViewById(R.id.tvCero);
         float dig = Float.parseFloat(digito.getText().toString()), res = Float.parseFloat(resultado.getText().toString()) ;
         res = res*10 + dig;
         resultadoaux = res;

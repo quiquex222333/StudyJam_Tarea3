@@ -13,16 +13,13 @@ Requerimientos
 
 Uso
 ---------
-Para probar este ejemplo clona este repositorio de la siguiente forma:
+Simple de usar al solo click
 >
->     $ git clone https://github.com/cechus/StudyJam_tarea_3.git
+>     Intuitivo solo para operaciones basicas
 
 Dentro de Android Studio:
 
-* File --> New --> Import Project 
-* Seleccionas la ruta donde hiciste el `clone` del proyecto.
-* Build --> Rebuild Project
-* Run 
+* Puedes clonar este repo a tu android studio
 
 Captura
 ---------
